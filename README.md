@@ -70,9 +70,9 @@ while (iter.hasNext()) {
 ```
 
 ### priorityQueue in reverse order (max-heap):
-`PriorityQueue<Integer> pq = new PriorityQueue<>((x, y) -> y - x);`
+`PriorityQueue<Integer> maxHeap = new PriorityQueue<>((x, y) -> y - x);`
 
-### convert priority queue (min-heap) to array list:
-` new ArrayList<Integer>(minHeap);`
+### convert priority queue (max-heap) to array list:
+` return new ArrayList<Integer>(maxHeap);`
 
 
