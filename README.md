@@ -1,5 +1,4 @@
 ### ways to declare and initialize an array
-
 ```
 //Declaration Syntax
 int myArray1[]; 
@@ -44,3 +43,31 @@ class TwoDArray {
   }
 }
 ```
+### iterate a HashMap using foreach:
+```
+Map<String, String> map = new HashMap<>();
+map.forEach((key, value) -> System.out.println("[Key] : " + key + " [Value] : " + value));
+```
+
+### iterate a HashMap using entrySet:
+```
+Map<String, String> map = new HashMap<>();
+	
+for (Map.Entry<String, String> entry : map.entrySet()) {
+	System.out.println("[Key] : " + entry.getKey() + " [Value] : " + entry.getValue());
+}
+```
+
+### iterate a HashMap using iterator:
+```
+Map<String, String> map = new HashMap<>();
+       
+Iterator iter = map.entrySet().iterator();
+while (iter.hasNext()) {
+	Map.Entry entry = (Map.Entry) iter.next();
+	System.out.println("[Key] : " + entry.getKey() + " [Value] : " + entry.getValue());
+}
+```
+
+### priorityQueue in reverse order (max-heap):
+`PriorityQueue<Integer> pq = new PriorityQueue<>((x, y) -> y - x);`
