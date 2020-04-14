@@ -1,3 +1,13 @@
+
+### common operations
+```
+// HashSet  =>  HashSet<Integer> hSet = new HashSet<>();
+// HashMap   =>  HashMap<Integer,String> hMap = new HashMap<>();  
+// HashTable =>  Hashtable<Integer,String> hTable = new Hashtable<>();  
+// Hash Set Functions => {add(), remove(), contains()}
+// Hash Map and Table Functions => {put(key,value), get(key), remove(key), containsKey(key), containsValue(value)}
+```
+
 ### ways to declare and initialize an array
 ```
 //Declaration Syntax
