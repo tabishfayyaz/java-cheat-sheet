@@ -5,7 +5,7 @@
 // HashMap   =>  HashMap<Integer,String> hMap = new HashMap<>();  
 // HashTable =>  Hashtable<Integer,String> hTable = new Hashtable<>();  
 // Hash Set Functions => {add(), remove(), contains()}
-// Hash Map and Table Functions => {put(key,value), get(key), remove(key), containsKey(key), containsValue(value)}
+// Hash Map & Table Functions => {put(key,value), get(key), remove(key), containsKey(key), containsValue(value), getOrDefault(key, defaultValue)}
 ```
 
 ### ways to declare and initialize an array
