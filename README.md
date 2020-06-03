@@ -8,6 +8,12 @@
 // Hash Map & Table Functions => {put(key,value), get(key), remove(key), containsKey(key), containsValue(value), getOrDefault(key, defaultValue)}
 ```
 
+### print/access each character of a string
+```
+for (char chr : "abcdef".toCharArray())
+      System.out.println(chr);
+```
+
 ### ways to declare and initialize an array
 ```
 //Declaration Syntax
