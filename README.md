@@ -14,6 +14,12 @@ for (char chr : "abcdef".toCharArray())
       System.out.println(chr);
 ```
 
+### print/access each number of an integer array
+```
+for (int num : result)
+      System.out.print(num + " ");
+    System.out.println();
+```
 ### ways to declare and initialize an array
 ```
 //Declaration Syntax
@@ -26,7 +32,6 @@ int[] myArray2;
 
 myArray2 = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 ```
-
 
 ### declare and initialize 2D array
 ```
@@ -91,4 +96,8 @@ while (iter.hasNext()) {
 ### convert priority queue (max-heap) to array list:
 ` return new ArrayList<Integer>(maxHeap);`
 
+### sort an Array in ascending order
+`Arrays.sort(arr);`
 
+### Convert set of values into List
+`Arrays.asList(...)`
