@@ -101,3 +101,12 @@ while (iter.hasNext()) {
 
 ### Convert set of values into List
 `Arrays.asList(...)`
+
+### Build String with StringBuilder
+```
+StringBuilder builder = new StringBuilder();
+builder.append('a');
+builder.append('b');
+builder.append("c");
+System.out.println(builder.toString());
+```
