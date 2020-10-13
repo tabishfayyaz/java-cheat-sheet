@@ -110,3 +110,39 @@ builder.append('b');
 builder.append("c");
 System.out.println(builder.toString());
 ```
+
+### Comparable interface
+```
+public class CustomClass implements Comparable<CustomClass> {
+  
+    // returns -1 if object is less than other, returns 0 if they're equal, and returns 1 otherwise
+    @Override
+    public int compareTo(CustomClass other) {
+        return Integer.compare(getConfirmationNo(), other.getConfirmationNo());
+    }
+}
+```
+
+### Comparator interace - allows for multiple comparison logic and can plug in as lambda too
+```
+public class PlayerRankingComparator implements Comparator<Player> {
+    @Override
+    public int compare(Player firstPlayer, Player secondPlayer) {
+       return Integer.compare(firstPlayer.getRanking(), secondPlayer.getRanking());
+    }
+}
+
+public class PlayerAgeComparator implements Comparator<Player> {
+    @Override
+    public int compare(Player firstPlayer, Player secondPlayer) {
+       return Integer.compare(firstPlayer.getAge(), secondPlayer.getAge());
+    }
+}
+
+Comparator byRanking = (Player player1, Player player2) -> Integer.compare(player1.getRanking(), player2.getRanking());
+
+Collections.sort(objects, PlayerRankingComparator);
+Collections.sort(objects, PlayerAgeComparator);
+Collections.sort(objects, byRanking);
+
+```
