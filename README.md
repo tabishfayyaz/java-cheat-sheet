@@ -6,7 +6,7 @@
 // HashTable =>  Hashtable<Integer,String> hTable = new Hashtable<>();  
 // Hash Set Functions => {add(), remove(), contains()}
 // Map Interface Functions => {put(key,value), putIfAbsent(key,value), get(key), remove(key), containsKey(key), containsValue(value), getOrDefault(key, defaultValue)}
-// Queue => {add(value) -> exception if no space available, offer(value), peek() -> return null if empty, poll() -> removes & returns null if empty, remove()}
+// Queue => {boolean add(value), E remove, E element -> throws exception; boolean offer(value), E poll(), E peek() -> return special value or null}
 ```
 
 ### print/access each character of a string
