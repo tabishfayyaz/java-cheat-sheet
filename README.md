@@ -91,6 +91,15 @@ while (iter.hasNext()) {
 }
 ```
 
+### iterate a Queue using iterator:
+```       
+Iterator<Integer> iter = queue.iterator();
+while (iter.hasNext()) {
+	Integer value = iter.next();
+}
+```
+
+
 ### priorityQueue in reverse order (max-heap):
 `PriorityQueue<Integer> maxHeap = new PriorityQueue<>((x, y) -> y - x);`
 
