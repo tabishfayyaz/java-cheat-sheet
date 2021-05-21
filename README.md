@@ -111,8 +111,14 @@ while (iter.hasNext()) {
 ### sort an Array in ascending order
 `Arrays.sort(arr);`
 
-### Convert set of values into List
+### convert set of values into List
 `Arrays.asList(...)`
+
+### get substring from a String
+```
+str.substring(startIndex)		//till end of string
+str.substring(startIndex, endIndex)	//endIndex is exclusive
+```
 
 ### Build String with StringBuilder
 ```
