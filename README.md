@@ -91,7 +91,7 @@ while (iter.hasNext()) {
 }
 ```
 
-### iterate a Queue/Priority-Queue using iterator:
+### iterate a Queue/Priority-Queue/Stack using iterator:
 ```       
 Iterator<Integer> iter = queue.iterator();
 while (iter.hasNext()) {
