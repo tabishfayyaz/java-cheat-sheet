@@ -30,6 +30,21 @@ for (int num : result)
       System.out.print(num + " ");
     System.out.println();
 ```
+
+### declare a generic Pair class
+```
+class Pair<T> {
+    T first;
+    T second;
+
+    Pair(T first, T second){
+        this.first = first;
+        this.second = second;
+    }
+}
+```
+
+
 ### ways to declare and initialize an array
 ```
 //Declaration Syntax
