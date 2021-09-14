@@ -7,6 +7,15 @@
 // Hash Set Functions => {add(), remove(), contains()}
 // Map Interface Functions => {put(key,value), putIfAbsent(key,value), get(key), remove(key), containsKey(key), containsValue(value), getOrDefault(key, defaultValue)}
 // Queue => {boolean add(value), E remove(), E element()} -> throws exception, {boolean offer(value), E poll(), E peek()} -> return special value or null
+
+```
+
+### common constants, methods
+```
+int min = Integer.MIN_VALUE // 2^31-1
+int max = Integer.MAX_VALUE //-2^31
+Math.max()
+Math.min()
 ```
 
 ### print/access each character of a string
