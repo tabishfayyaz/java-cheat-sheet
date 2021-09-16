@@ -89,6 +89,21 @@ class TwoDArray {
   }
 }
 ```
+### declare and initialize a 2D array with default values
+```
+int rows = 3;
+int columns = 4;
+int[][] array = new int[rows][columns];
+
+for (int i=0; i<rows; ++i){
+    Arrays.fill(array[i], -1);
+}	
+//OR	
+for (int[] a : array){
+    Arrays.fill(a, -2);
+}
+```
+
 ### iterate a HashMap using foreach:
 ```
 Map<String, String> map = new HashMap<>();
