@@ -99,8 +99,8 @@ for (int i=0; i<rows; ++i){
     Arrays.fill(array[i], -1);
 }	
 //OR	
-for (int[] a : array){
-    Arrays.fill(a, -2);
+for (int[] row : array){
+    Arrays.fill(row, -2);
 }
 ```
 
