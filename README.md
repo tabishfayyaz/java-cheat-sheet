@@ -7,7 +7,8 @@
 // Hash Set Functions => {add(), remove(), contains()}
 // Map Interface Functions => {put(key,value), putIfAbsent(key,value), get(key), remove(key), containsKey(key), containsValue(value), getOrDefault(key, defaultValue)}
 // Queue => {boolean add(E value), E remove(), E element()} -> throws exception, {boolean offer(E value), E poll(), E peek()} -> return special value or null
-// Deque => {addFirst/Last(E value), E removeFirst/Last, E getFirst/Last()} -> throws exception, first=head, last=tail, {boolean offerFirst/Last(E value), pollFirst/Last(), peekFirst/Last()} -> return special value or null
+// Deque => {addFirst/Last(E value), E removeFirst/Last, E getFirst/Last()} -> throws exception {boolean offerFirst/Last(E value), pollFirst/Last(), peekFirst/Last()} -> return special value or null
+// Deque => first=beginning=head-of-queue and last=ending=tail-of-queue (if you visualize this head & tail is not reference to a linked list terminology but in fact reverse)
 // Stack => {E push(E value), E pop(), E peek()} -> throws exception if stack is empty
 ```
 
