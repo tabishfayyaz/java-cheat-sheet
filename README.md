@@ -6,8 +6,9 @@
 // HashTable =>  Hashtable<Integer,String> hTable = new Hashtable<>();  
 // Hash Set Functions => {add(), remove(), contains()}
 // Map Interface Functions => {put(key,value), putIfAbsent(key,value), get(key), remove(key), containsKey(key), containsValue(value), getOrDefault(key, defaultValue)}
-// Queue => {boolean add(value), E remove(), E element()} -> throws exception, {boolean offer(value), E poll(), E peek()} -> return special value or null
-
+// Queue => {boolean add(E value), E remove(), E element()} -> throws exception, {boolean offer(E value), E poll(), E peek()} -> return special value or null
+// Deque => {addFirst/Last(E value), E removeFirst/Last, E getFirst/Last()} -> throws exception, first=head, last=tail, {boolean offerFirst/Last(E value), pollFirst/Last(), peekFirst/Last()} -> return special value or null
+// Stack => {E push(E value), E pop(), E peek()} -> throws exception if stack is empty
 ```
 
 ### common constants, methods
