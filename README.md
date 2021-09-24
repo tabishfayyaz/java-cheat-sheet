@@ -205,3 +205,6 @@ Collections.sort(objects, PlayerAgeComparator);
 Collections.sort(objects, byRanking);
 
 ```
+
+### Random number between a range
+`new Random().nextInt(end - start + 1) + start`
