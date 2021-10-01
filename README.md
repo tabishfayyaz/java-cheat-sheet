@@ -26,6 +26,11 @@ for (char chr : "abcdef".toCharArray())
       System.out.println(chr);
 ```
 
+### Initialize String from char array
+```
+String newWord = new String("abcdef".toCharArray());
+```
+
 ### print/access each number of an integer array
 ```
 for (int num : result)
