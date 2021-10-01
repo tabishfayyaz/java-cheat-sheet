@@ -137,6 +137,27 @@ while (iter.hasNext()) {
 }
 ```
 
+### different ways to iterate HashSet
+```
+HashSet<String> dictionary = getDictionary();
+
+//1.
+Iterator<String> it = dictionary.iterator();
+while (it.hasNext()) {
+	System.out.println(it.next());
+}
+
+//2.
+dictionary.forEach(key -> {
+	System.out.println(key);
+});
+            
+//3.
+for (String key : dictionary){
+	System.out.println(key);
+}
+```
+
 ### iterate a Queue/Priority-Queue/Stack using iterator:
 ```       
 Iterator<Integer> iter = queue.iterator();
