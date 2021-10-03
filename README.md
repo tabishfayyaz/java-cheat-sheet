@@ -234,3 +234,8 @@ Collections.sort(objects, byRanking);
 
 ### Random number between a range
 `new Random().nextInt(end - start + 1) + start`
+
+
+### Links
+
+- https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
