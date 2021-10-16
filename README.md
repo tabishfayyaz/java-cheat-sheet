@@ -13,10 +13,10 @@
 ```
 
 ### Declare a Stack
-`Stack<Integer> operands = new Stack<Integer>();`
+`Stack<Integer> stack = new Stack<Integer>();`
 
 ### Declare a Queue
-`Stack<Integer> operands = new LinkedList<Integer>();`
+`Queue<Integer> queue = new LinkedList<Integer>();`
 
 ### common constants, methods
 ```
