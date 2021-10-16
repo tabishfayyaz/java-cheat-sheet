@@ -12,6 +12,12 @@
 // Stack => {E push(E value), E pop(), E peek()} -> throws exception if stack is empty
 ```
 
+### Declare a Stack
+`Stack<Integer> operands = new Stack<Integer>();`
+
+### Declare a Queue
+`Stack<Integer> operands = new LinkedList<Integer>();`
+
 ### common constants, methods
 ```
 int min = Integer.MIN_VALUE // 2^31-1
