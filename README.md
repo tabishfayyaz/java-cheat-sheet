@@ -242,6 +242,11 @@ Collections.sort(objects, byRanking);
 `new Random().nextInt(end - start + 1) + start`
 
 
-### Links
+## Notes
+
+**What is Java**
+
+
+## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
