@@ -256,6 +256,13 @@ Collections.sort(objects, byRanking);
  4. High performance (these days JVM implementation have improved so much that it runs as fast as C or C++ programs)
  5. Interpreted, threaded and dynamic (bytecode is interpreted by JVM, some aspects of Java are dynamic, some are static but Java is very much dynamic) 
 
+**What is JVM**
+ * stands for Java Virtual Machine
+ * It's the runtime VM in which a Java program is run (an extra layer on top of your hardware)
+ * Takes the compiled Java bytecode and runs it (input to the JVM is bytecode)
+ * Has a specification that outlines how it should work (different implementation available)
+ * Essential in making Java platform agnostic
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
