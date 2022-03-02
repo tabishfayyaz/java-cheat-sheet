@@ -249,7 +249,12 @@ Collections.sort(objects, byRanking);
  * Portable - write once run anywhere (was not possible in the programming world when java was invented)
  * Very popular today in server-side applications
 
-
+**What are the characteristics of Java (goals of the creator)**
+ 1. Simple, object-oriented, and familiar (at that time C & C++ were ruling)
+ 2. Robust and secure (JVM makes it difficult for direct access to machine level so that kind of makes it a bit more secure)
+ 3. Architecture-neutral and portable (does not care about underlying hardware architecturee because of JVM)
+ 4. High performance (these days JVM implementation have improved so much that it runs as fast as C or C++ programs)
+ 5. Interpreted, threaded and dynamic (bytecode is interpreted by JVM, some aspects of Java are dynamic, some are static but Java is very much dynamic) 
 
 ## Links
 
