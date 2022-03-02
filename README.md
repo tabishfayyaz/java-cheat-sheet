@@ -256,18 +256,33 @@ Collections.sort(objects, byRanking);
  4. High performance (these days JVM implementation have improved so much that it runs as fast as C or C++ programs)
  5. Interpreted, threaded and dynamic (bytecode is interpreted by JVM, some aspects of Java are dynamic, some are static but Java is very much dynamic) 
 
+**What is JRE**
+ * software used for running Java applications
+ * stands for Java Runtime Environment
+ * It is a set of software elemtns (Class loader, JVM, Libraries and utilities which assist the code to execute) that together run a Java application on a machine, little different from traditional model where you get an executable and you just run it like in C/C++
+ * The JRE orchestrates activities between these software elements, it is the runtime environment where the Java code runs
+ * Installed on machines that need to run Java applications
+
+
 **What is JVM**
- * stands for Java Virtual Machine
+ * abstract virutal machine that the JRE spins up to run Java applications in
  * It's the runtime VM in which a Java program is run (an extra layer on top of your hardware)
  * Takes the compiled Java bytecode and runs it (input to the JVM is bytecode)
  * Has a specification that outlines how it should work (different implementation available)
  * Essential in making Java platform agnostic
 
-**What is JRE**
- * stands for Java Runtime Environment
- * It is a set of software elemtns (Class loader, JVM, Libraries and utilities) that together run a Java application on a machine, little different from traditional model where you get an executable and you just run it like in C/C++
- * The JRE orchestrates activities between these software elements, it is the runtime environment where the Java code runs
- * Installed on machines that need to run Java applications
+
+**What is JDK**
+ * software used for building Java applications
+ * stands for Java Development Kit
+ * It is a set of tools to help developers write Java programs (if you just want to execute java code you need JRE) but to write and publish you need JDK
+ * Comes with the JRE (because you need to run what you develop)
+ * Based off the Java language specification (two important specifications: one is for how JVM behaves the other is how JDK behaves)
+   * if you write a certain line of java code this is what should happen or this is what error should occur (this is in specification)
+   * there are multiple JDK but as long as it is certified it'll follow the specification and result in bytecode that you intended to write
+ * Includes (java compiler which converts java code into bytecode, class libraries which is core native API of java, utilities like packaging into a jar)
+
+**What is Java byte code**
 
 ## Links
 
