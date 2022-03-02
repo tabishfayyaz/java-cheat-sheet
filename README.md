@@ -263,6 +263,12 @@ Collections.sort(objects, byRanking);
  * Has a specification that outlines how it should work (different implementation available)
  * Essential in making Java platform agnostic
 
+**What is JRE**
+ * stands for Java Runtime Environment
+ * It is a set of software elemtns (Class loader, JVM, Libraries and utilities) that together run a Java application on a machine, little different from traditional model where you get an executable and you just run it like in C/C++
+ * The JRE orchestrates activities between these software elements, it is the runtime environment where the Java code runs
+ * Installed on machines that need to run Java applications
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
