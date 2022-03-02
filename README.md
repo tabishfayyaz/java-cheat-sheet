@@ -245,6 +245,10 @@ Collections.sort(objects, byRanking);
 ## Notes
 
 **What is Java**
+ * Object Oriented programming language
+ * Portable - write once run anywhere (was not possible in the programming world when java was invented)
+ * Very popular today in server-side applications
+
 
 
 ## Links
