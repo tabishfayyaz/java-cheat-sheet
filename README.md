@@ -295,6 +295,10 @@ Collections.sort(objects, byRanking);
  * PATH is an operating system specific variable that influences what binaries are available for running (this has nothing to do with Java but any executable you want access across the command promot)
  * CLASSPATH (the path to the classes for compilation/execution) is a Java construct to indicate where all the compiled classes and jars are available. This could be multiple locations
 
+**What is the difference between sourcepath and classpath**
+ * Sourcepath is where the classes reside (that you write and compile) e.g. your IDE might have SRC directory. It indicates to the compiler this is where your source code is
+ * Classpath is where your dependencies - libraries/jars go
+ * Compiler and Runtime scan all the different paths in CLASSPATH for bytecode and classes
 
 ## Links
 
