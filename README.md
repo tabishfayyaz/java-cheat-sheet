@@ -316,6 +316,19 @@ Collections.sort(objects, byRanking);
    * Registers
    * C implementation stacks 
 
+**What is difference between permgen and metaspace**
+ * Memory areas in the JVM
+ * Before Java 8, there was a memory area called PermGen (permanent generation memory)
+ * Java 8 onwards, this is called Metaspace
+ * PermGen is gone
+ * PermGen had a fixed max size allocated (configurable)
+ * Metaspace expands as needed by default
+ * Has maxMetaSpaceSize configuration. Triggers garbage collection when hit
+ * Because of class loading/unloading, no "permanent generation" anymore
+ * The way things grow is different: PermGen had a hard limit but Metaspace it's managed as JVM feels like, things go in and out
+
+**What is garbage collection**
+ * 
 
 ## Links
 
