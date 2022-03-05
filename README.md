@@ -431,7 +431,9 @@ Collections.sort(objects, byRanking);
  * No possibility of data loss
 
 **How do you break from a nested loop**
- * break keyword with labels: `label-name:`
+ * break keyword with labels: `label-name: while(){}`
+ * Different from goto
+ * When the break statement is encountered with the label/name of the loop, it skips the execution any statement after it and takes the control right out of this labelled loop
  * this could be nested deep any levels
 
 ## Links
