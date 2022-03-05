@@ -376,6 +376,21 @@ Collections.sort(objects, byRanking);
    * Core Java runtime classes (these are some low level stuff)
  * Custom class loaders (you can write your own)      
 
+**What is public static void main**
+  * *public static void* are modifiers to a method called *main*
+  * public: method is accessible outside the class
+  * static: a class instance isn't needed
+  * void: method doesn't return anything
+  * main: special name convention to indicate an execution entry point
+  * order of modifiers don't matter: *static void public main* works just as well, modifiers must be before the method  
+
+**Can you run code before the main method starts**
+ * Yes, you can run code before main method starts
+ * This can be done by using static blocks `static{}`
+ * There can be multiple static initialization blocks
+ * Static blocks in a class execute when the class is loaded
+ * So, this runs before the main method is executed (for the main method to run Java has to load the class first)
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
