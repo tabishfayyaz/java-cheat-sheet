@@ -420,6 +420,16 @@ Collections.sort(objects, byRanking);
  * The local variables do not have default values (there is no gaurantee of value). They need to be initialized by the programmer otherwise compiler will complain 
  * These local variables could be primitives or object references
 
+**Can a double be cast to a byte?**
+ * Yes, a higher precision numeric type can be cast to a lower precision numberic type (any combination of data types)
+ * This needs explicity casting `byte b = (byte)d`
+ * Possible loss of data (loss conversion), you might end up getting different value  
+
+**Can a byte be cast into a double**
+ * A byte does not need to be cast into double. It can be automatically assigned
+ * This is called implicit casting as no explicity casting is required, you are going from a smaller jug to a bigger jug
+ * No possibility of data loss
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
