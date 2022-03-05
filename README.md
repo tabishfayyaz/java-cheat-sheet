@@ -367,7 +367,14 @@ Collections.sort(objects, byRanking);
    * Class loader tries to find it in CLASSPATH and load it into metaspace
 
 **What are the different types of classloaders**
- * 
+ * Application/System class loader
+   * Classes in your CLASSPATH (classes you have written, library you are using etc.)
+ * Extension class loader
+   * Core Java JDK classes
+ * Bootstrap class loader
+   * Loads the other class loaders
+   * Core Java runtime classes (these are some low level stuff)
+ * Custom class loaders (you can write your own)      
 
 ## Links
 
