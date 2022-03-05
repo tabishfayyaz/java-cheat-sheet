@@ -391,6 +391,21 @@ Collections.sort(objects, byRanking);
  * Static blocks in a class execute when the class is loaded
  * So, this runs before the main method is executed (for the main method to run Java has to load the class first)
 
+**Difference between break and continue**
+ * Both are used in loops
+ * Break is used to end the loop immediately (e.g. looping an array until you find an exceptional case)
+ * Continue is used to end that particular iteration (e.g. processing every element but skipping some on some condition)
+ * break is also used in switch (to prevent fall through)
+
+**Difference between float and double**
+ * Both are real numbers e.g. 22/7 (whole numbers are precise were has 22/7 might need infinite precision)
+ * Both are imprecise so you really can't compare them for equality as they might have a difference at 100th/200th decimal place (might need infinite precision/decimal-places)
+ * Float takes 32 bit. Double takes 64 bit (double is literally double the size of float)
+ * Double has more precision than float
+ * By default, floating point numbers are double e.g. `var a = 3.14` is Double by default (var is Java 10 feature)
+ * Use float mostly for space optimizations but recommendation is to use Double
+ * A double can be cast to a float (with possible precision loss)
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
