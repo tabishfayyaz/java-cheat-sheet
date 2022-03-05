@@ -351,7 +351,23 @@ Collections.sort(objects, byRanking);
  * You don't want space to be too much (your application is taking up too much space from others) 
 
 **How and why do you configure stack size in Java**
+ * Configured using flag -Xss (initial stack size)
+ * Stack grows dynamically
+ * When all available memory is consumed:
+   * Stack overflow exception
+   * Usually not a big deal
+   * Stack overflow usually because of circular invocation
 
+**What is a classloader**
+ * Classes (bytecode) is loaded into memory during execution
+ * Part of JRE
+ * They load Java classes into the runtime to make it available for the JVM
+ * This happens only when needed and if the class is already not available in memory:
+   * JVM requests a class
+   * Class loader tries to find it in CLASSPATH and load it into metaspace
+
+**What are the different types of classloaders**
+ * 
 
 ## Links
 
