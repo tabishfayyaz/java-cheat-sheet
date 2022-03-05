@@ -342,6 +342,17 @@ Collections.sort(objects, byRanking);
  * Makes a judgement call based on usage, performance chractertistics
  * Hence "Just In Time"
 
+**How and why do you configure heap space in Java**
+ * Configured using flags passed to JVM: -Xms (initial memory allocation pool) and -Xmx (maximum allocation, you generally tweak if it too much GC is happening)
+ * When maximum is hit, JVM does:
+  * Garbage collection
+  * Out of memory errors (if not enough objects to recover)
+ * You don't want space to be too little (would result in too much garbage collection or you'll run out of memory)
+ * You don't want space to be too much (your application is taking up too much space from others) 
+
+**How and why do you configure stack size in Java**
+
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
