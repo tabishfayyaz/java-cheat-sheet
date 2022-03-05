@@ -436,6 +436,12 @@ Collections.sort(objects, byRanking);
  * When the break statement is encountered with the label/name of the loop, it skips the execution any statement after it and takes the control right out of this labelled loop
  * this could be nested deep any levels
 
+**What are the different access modifiers in Java**
+ * private: within the class only
+ * package private: within the package only (default)
+ * protected: by the classes of the same package, or by a sub-class of this class
+ * public: can be accessed by all
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
