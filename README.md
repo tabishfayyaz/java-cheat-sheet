@@ -335,6 +335,13 @@ Collections.sort(objects, byRanking);
  * Benefit: no manual memory management
  * Drawback: performance intrusion (small impact when garbage collection is running parallel to your own execution, fraction of a fraction of second)
 
+**What is JIT compilation**
+ * Java code is executed as bytecode as oppose to native code
+ * JVM selectively converts certain bytecode instructions to native code (depending upon how JVM perceives code usage e.g. a 50K iterations loop)
+ * Converts to the native instruction set of the CPU it is being run on
+ * Makes a judgement call based on usage, performance chractertistics
+ * Hence "Just In Time"
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
