@@ -328,7 +328,12 @@ Collections.sort(objects, byRanking);
  * The way things grow is different: PermGen had a hard limit but Metaspace it's managed as JVM feels like, things go in and out
 
 **What is garbage collection**
- * 
+ * Process of removing unused and orphaned objects from the heap
+ * Automatic process. Does not need programmer intervention
+ * Has APIs to trigger programmatically (not recommended)
+ * Generation based approach (things that are new have a stronger likelihood of being deallocated, things that have been around for a while have a stronger likelihood of staying around for a while)
+ * Benefit: no manual memory management
+ * Drawback: performance intrusion (small impact when garbage collection is running parallel to your own execution, fraction of a fraction of second)
 
 ## Links
 
