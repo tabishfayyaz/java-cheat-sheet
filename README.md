@@ -406,6 +406,20 @@ Collections.sort(objects, byRanking);
  * Use float mostly for space optimizations but recommendation is to use Double
  * A double can be cast to a float (with possible precision loss)
 
+**What are the primitive types in Java**
+ * byte: 8 bit signed twos compliment
+ * char: 16 bit Unicode
+ * short: 16 bit signed twos compliment
+ * int: 32 bit signed twos compliment
+ * long: 64 bit twos compliment (signed or unsigned)
+ * float: 32 bit floating point
+ * double: 64 bit floating point
+ * boolean: One bit of information, size unspecified
+
+**What is the default value of the local variables**
+ * The local variables do not have default values (there is no gaurantee of value). They need to be initialized by the programmer otherwise compiler will complain 
+ * These local variables could be primitives or object references
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
