@@ -430,6 +430,10 @@ Collections.sort(objects, byRanking);
  * This is called implicit casting as no explicity casting is required, you are going from a smaller jug to a bigger jug
  * No possibility of data loss
 
+**How do you break from a nested loop**
+ * break keyword with labels: `label-name:`
+ * this could be nested deep any levels
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
