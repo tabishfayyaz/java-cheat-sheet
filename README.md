@@ -524,6 +524,18 @@ class Foo {
  * final on classes make them non-extensible (cannot be inherited from)
  * final on methods make them non-overridable (can only be inherited)
 
+**What is encapsulation**
+ * Encapsulation is the process of restricting access to the inner implementation details of a class. It enforces abstraction concepts by not just hiding but by guaranteeing the internals aren't exposed
+ * Manifests in class design using access modifiers - like private
+ * Benefits include ability to refactor/change internals without breaking others
+
+**What is abstraction**
+ * Abstraction is the design principle of separating the interface from the implementation so that the consumer/client is only concerned with the interface
+ * e.g. buttons on an electric/electronic device vs internal circuit board
+ * Manifests in class design using interfaces (and sometimes abstract classes)
+ * The primary thing that enables abstraction is interfaces (not abstract classes as purpose of abstract class is to consolidate common things that exists in multiple classes)
+ * All you are worried about with abstraction is what the user sees and not the implementation details
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
