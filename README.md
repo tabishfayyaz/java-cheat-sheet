@@ -495,7 +495,20 @@ class Foo {
  * Used/needed with Collections - Java collections support references types only
  * Byte (byte), Character (char), Short (short), Integer (int), Long (long), Float (float), Double (double), Boolean (boolean)
 
-
+**What is autoboxing and unboxing**
+ * autoboxing is like saying autowrapping
+ * unboxing is like saying unwrapping
+ * Java has an automatic mechanism to convert to and from primitives and wrapper class instances
+ * Assignments work:
+ ```
+ Integer i = 10;	//autoboxing
+ int j = i;	//unboxing
+ ```
+ * Method arguments and collections work:
+ ```
+ List<Integer> list = new ArrayList<>();
+ list.add(5);
+ ```
 
 ## Links
 
