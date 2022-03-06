@@ -442,6 +442,20 @@ Collections.sort(objects, byRanking);
  * protected: by the classes of the same package, or by a sub-class of this class
  * public: can be accessed by all
 
+**What are the difference scope types for Java**
+ * class level scope: member variables
+ * method level scope: local variables
+ * block level scope: loops, if blocks etc.
+
+**What is static and the static modifier**
+ * not associated with an instance
+ * when you need to store data that's relevant across instances e.g. Math.PI
+ * when you need to provide methods before creating a class e.g. main method
+ * static block to be executed when encountered, not associated with a method
+
+**Is Java pass by value or pass by reference**
+
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
