@@ -536,6 +536,13 @@ class Foo {
  * The primary thing that enables abstraction is interfaces (not abstract classes as purpose of abstract class is to consolidate common things that exists in multiple classes)
  * All you are worried about with abstraction is what the user sees and not the implementation details
 
+**What are marker interfaces**
+ * An interface that marks or "tags" classes and their corresponding instances
+ * Don't have any methods of their own
+ * e.g. Serializable interface (just for telling Java what the class is capable of doing)
+ * Formerly used because annotations didn't exits to just show what a class should be used for or not (e.g. class can be logged or not)
+ * Not recommended these days
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
