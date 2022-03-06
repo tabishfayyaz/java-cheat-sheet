@@ -454,7 +454,12 @@ Collections.sort(objects, byRanking);
  * static block to be executed when encountered, not associated with a method
 
 **Is Java pass by value or pass by reference**
-
+ * There are two types of values Java can hold:
+  * primitive: the memory allocated for the value is for the value itself
+  * object reference: they hold a reference to where the instance is allocated in the heap
+ * Java is pass by value:
+   * primitive: the actual value is passed
+   * object reference: the reference is passed by value
 
 ## Links
 
