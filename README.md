@@ -543,6 +543,30 @@ class Foo {
  * Formerly used because annotations didn't exits to just show what a class should be used for or not (e.g. class can be logged or not)
  * Not recommended these days
 
+**What is method overriding**
+ * Overriding is when a subclass changes the behavior of an inherited method
+ * Done by the subclass implementing a method with the same signature as what it inherits from parent
+ * Works for multiple levels too. Methods can be overriden irrespective of where it inherited from
+ * Actual method gets resolved at runtime. This allows for polymorphism
+
+**What is the superclass of all classes**
+ * Every class inherits from the object superclass
+ * Root of the inheritance hierarchy
+ * Object class contains some handy methods with default implementations:
+   * equals
+   * hashCode
+   * toString
+
+**Whats the difference between overloading and overriding**
+ * Overloading: multiple methods with the same name in a class (with different arguments), arguments decide which one to call
+ * Overriding: a child class providing implementation to change inherited method behavior, instance decides which one gets called
+ * Overriden methods can be overloaded
+
+**Can static methods be overriden in Java**
+ * static methods cannot be overridden in Java
+ * method overriding has been designed to work with polymorphism
+ * polymorphism requires instances to work. Does not apply with static as you call method on class
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
