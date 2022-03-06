@@ -477,6 +477,26 @@ Collections.sort(objects, byRanking);
  * Same concept of method overloading apply (different arguments)
  * Overloaded constructor "hides" default no-arg constructor (can't construct without those args anymore so then you have to provide your own no-arg constructor as well)
 
+**What is the copy constructor pattern**
+ * Specific pattern used to create a new object as a copy of another object
+ * Constructor of a class takes as argument of the same class type
+ * Constructor copies members from that instance
+
+```
+class Foo {
+	Foo(Foo other) {
+		this.prop = other.prop;
+	}
+}
+```
+
+**What are wrapper classes**
+ * Classes corresponding to primitive types - that "wrap" primitive values
+ * Used/needed with Collections - Java collections support references types only
+ * Byte (byte), Character (char), Short (short), Integer (int), Long (long), Float (float), Double (double), Boolean (boolean)
+
+
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
