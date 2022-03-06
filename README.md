@@ -468,6 +468,15 @@ Collections.sort(objects, byRanking);
  * Object referenes are by default null
  * recommended initialization in constructor (especially object references)
 
+**How does a constructor work**
+ * A method that can initialize values of an object
+ * The runtime creates an instance. You can work on the instance before it is "ready"
+ * Invoked by the new operator + object creation process
+ * Has one by default. You can implement or parameterize
+ * Constructors can be overloaded
+ * Same concept of method overloading apply (different arguments)
+ * Overloaded constructor "hides" default no-arg constructor (can't construct without those args anymore so then you have to provide your own no-arg constructor as well)
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
