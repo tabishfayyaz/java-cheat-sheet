@@ -461,6 +461,13 @@ Collections.sort(objects, byRanking);
    * primitive: the actual value is passed
    * object reference: the reference is passed by value
 
+**What is the initial value of instance variables**
+ * instance/member variables don't need to be initialized
+ * contrast with local variables that error when used without initialization
+ * primitive values take 'default' values e.g. 0 for numeric types, '\000' for char, fasle for boolean
+ * Object referenes are by default null
+ * recommended initialization in constructor (especially object references)
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
