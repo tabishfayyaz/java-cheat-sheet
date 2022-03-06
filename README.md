@@ -510,6 +510,20 @@ class Foo {
  list.add(5);
  ```
 
+**What is the singleton pattern and how to implement**
+ * Java naturally allows multiple instances. The requirement is to enforce one instance
+ * Done by:
+  * private constructor
+  * static instance
+  * static method that returns the instance
+
+**What is the final keyword in Java**
+ * final keyword marks something as in its final state and not to be changed
+ * On variables it declares them as constant (at least on primitives)
+ * On object references, the reference is constant, but the object instance is not (cannot change what the reference points to)
+ * final on classes make them non-extensible (cannot be inherited from)
+ * final on methods make them non-overridable (can only be inherited)
+
 ## Links
 
 - https://stackoverflow.com/questions/40471/what-are-the-differences-between-a-hashmap-and-a-hashtable-in-java
