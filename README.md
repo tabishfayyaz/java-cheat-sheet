@@ -26,6 +26,12 @@ Math.max()
 Math.min()
 ```
 
+### char to int and vice versa
+```
+int answer = (int)(digit - '0')
+char result = (char)(answer + '0')
+```
+
 ### print/access each character of a string
 ```
 for (char chr : "abcdef".toCharArray())
