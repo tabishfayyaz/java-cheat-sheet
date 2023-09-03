@@ -75,6 +75,9 @@ int[] myArray1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 int[] myArray2;
 
 myArray2 = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+int[][] my2DArray = {{7,6},{4,4},{3,2}};
+
 ```
 
 ### declare and initialize 2D array
