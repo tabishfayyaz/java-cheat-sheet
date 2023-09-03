@@ -202,9 +202,15 @@ str.substring(startIndex)		//till end of string
 str.substring(startIndex, endIndex)	//endIndex is exclusive
 ```
 
-### a string contains another string
+### to check if a string contains another string
 ```
 str.contains(subString)
+```
+
+### string to char array
+```
+char[] ch = str.toCharArray();
+
 ```
 
 ### Build String with StringBuilder
