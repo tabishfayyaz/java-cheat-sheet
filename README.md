@@ -202,6 +202,11 @@ str.substring(startIndex)		//till end of string
 str.substring(startIndex, endIndex)	//endIndex is exclusive
 ```
 
+### a string contains another string
+```
+str.contains(subString)
+```
+
 ### Build String with StringBuilder
 ```
 StringBuilder builder = new StringBuilder();
