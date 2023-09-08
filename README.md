@@ -9,11 +9,14 @@
 // Queue => {boolean add(E value), E remove(), E element()} -> throws exception, {boolean offer(E value), E poll(), E peek()} -> return special value or null
 // Deque => {addFirst/Last(E value), E removeFirst/Last, E getFirst/Last()} -> throws exception {boolean offerFirst/Last(E value), pollFirst/Last(), peekFirst/Last()} -> return special value or null
 // for Deque -> first=beginning=head-of-queue and last=ending=tail-of-queue (if you visualize this head & tail is not reference to a linked list terminology but in fact reverse)
-// Stack => new Stack<E>(), {E push(E value), E pop(), E peek()} -> throws exception if stack is empty
+// Stack => {E push(E value), E pop(), E peek()} -> throws exception if stack is empty
 ```
 
-### Declare a Stack
-`Stack<Integer> stack = new Stack<Integer>();`
+### Stack
+```
+Stack<Integer> stack = new Stack<Integer>();
+System.out.println(stack)
+```
 
 ### Declare a Queue
 `Queue<Integer> queue = new LinkedList<Integer>();`
