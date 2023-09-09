@@ -15,7 +15,7 @@
 ### Stack
 ```
 Stack<Integer> stack = new Stack<Integer>();
-System.out.println(stack)
+System.out.println(stack) //you can print a stack
 ```
 
 ### Declare a Queue
