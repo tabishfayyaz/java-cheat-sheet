@@ -199,6 +199,9 @@ while (iter.hasNext()) {
 ### convert set of values into List
 `Arrays.asList(...)`
 
+### copy values of an array
+`Arrays.copyOfRange(array, from, to)`
+
 ### get substring from a String
 ```
 str.substring(startIndex)		//till end of string
