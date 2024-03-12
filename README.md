@@ -200,7 +200,7 @@ while (iter.hasNext()) {
 `Arrays.asList(...)`
 
 ### copy values of an array
-`Arrays.copyOfRange(array, from, to)`
+`Arrays.copyOfRange(array, from-inclusive, to-exclusive)`
 
 ### get substring from a String
 ```
