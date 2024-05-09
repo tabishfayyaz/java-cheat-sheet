@@ -41,6 +41,11 @@ for (char chr : "abcdef".toCharArray())
       System.out.println(chr);
 ```
 
+### Check if char is alphabetic
+```
+Character.isAlphabetic(str.charAt(position))
+```
+
 ### Initialize String from char array
 ```
 String newWord = new String("abcdef".toCharArray());
