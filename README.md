@@ -46,6 +46,12 @@ for (char chr : "abcdef".toCharArray())
 Character.isAlphabetic(str.charAt(position))
 ```
 
+### Check if char is space
+```
+Character.isWhitespace(str.charAt(position))
+```
+
+
 ### Initialize String from char array
 ```
 String newWord = new String("abcdef".toCharArray());
